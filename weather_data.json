@@ -1,0 +1,62 @@
+[
+    {
+        "city": "New York",
+        "temperature": 22,
+        "humidity": 60,
+        "condition": "Sunny"
+    },
+    {
+        "city": "Los Angeles",
+        "temperature": 25,
+        "humidity": 65,
+        "condition": "Cloudy"
+    },
+    {
+        "city": "Chicago",
+        "temperature": 18,
+        "humidity": 70,
+        "condition": "Rainy"
+    },
+    {
+        "city": "Houston",
+        "temperature": 30,
+        "humidity": 50,
+        "condition": "Sunny"
+    },
+    {
+        "city": "Phoenix",
+        "temperature": 35,
+        "humidity": 20,
+        "condition": "Sunny"
+    },
+    {
+        "city": "Philadelphia",
+        "temperature": 20,
+        "humidity": 65,
+        "condition": "Cloudy"
+    },
+    {
+        "city": "San Antonio",
+        "temperature": 28,
+        "humidity": 55,
+        "condition": "Rainy"
+    },
+    {
+        "city": "San Diego",
+        "temperature": 24,
+        "humidity": 70,
+        "condition": "Cloudy"
+    },
+    {
+        "city": "Dallas",
+        "temperature": 32,
+        "humidity": 40,
+        "condition": "Sunny"
+    },
+    {
+        "city": "San Jose",
+        "temperature": 21,
+        "humidity": 75,
+        "condition": "Rainy"
+    }
+]
