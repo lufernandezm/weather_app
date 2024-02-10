@@ -33,8 +33,18 @@ The JSON file should follow this structure:
 The application will output a summary similar to the following in your console:
 
 ```bash
-Average Temperature: XX.X
-Average Humidity: YY.Y
-City with Lowest Temperature: City Name, Temp: ZZ & [Condition] condition
-City with Highest Temperature: City Name, Temp: AA & [Condition] condition
+Weather Data Summary:
+---------------------
+Average Temperature: 25.50 degrees C
+Average Humidity: 57.00%
+
+City with Lowest Temperature:
+City: Chicago
+Temperature: 18 degrees C
+Condition: Rainy
+
+City with Highest Temperature:
+City: Phoenix
+Temperature: 35 degrees C
+Condition: Sunny
 ```
