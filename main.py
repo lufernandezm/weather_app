@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from utils import print_summary
 
 DATA_FILE = Path("weather_data.json")
 
@@ -27,12 +28,6 @@ def find_extreme_temperatures(data):
     min_temp_city = min(data, key=lambda x: x['temperature'])
     max_temp_city = max(data, key=lambda x: x['temperature'])
     return min_temp_city, max_temp_city
-
-def print_summary(avg_temp, avg_humidity, min_temp_city, max_temp_city):
-    print(f"Average Temperature: {avg_temp}")
-    print(f"Average Humidity: {avg_humidity}")
-    print(f"City with Lowest Temperature: {min_temp_city['city']}, Temp: {min_temp_city['temperature']} & {min_temp_city['condition']} condition")
-    print(f"City with Highest Temperature: {max_temp_city['city']}, Temp: {max_temp_city['temperature']} & {max_temp_city['condition']} condition")
 
 def main():
     data = read_json_file(DATA_FILE)
