@@ -4,7 +4,6 @@ The Weather Data Aggregator is a command-line application designed to process we
 
 ## Requirements
 - Python 3.x
-- A JSON file named weather_data.json located in the same directory as the application scripts.
 
 The JSON file should follow this structure:
 ```bash
@@ -26,7 +25,7 @@ The JSON file should follow this structure:
 - Navigate to the directory containing the application scripts.
 - Run the command 
 
-    #### ` python main.py.`
+    #### ` python main.py. <path_to_json_file>`
 
 ## Expected Output
 
